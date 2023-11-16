@@ -1,0 +1,5 @@
+USER = nvzf61 (Thomas Milton),
+ALGORITHM CODE = 2O, NAME OF CITY-FILE = AISearchfile017.txt,
+SIZE = 17, TOUR LENGTH = 1444,
+1,11,4,8,9,16,6,12,14,7,0,15,2,5,13,10,3,
+NOTE = 

@@ -1,0 +1,5 @@
+USER = nvzf61 (Thomas Milton),
+ALGORITHM CODE = PS, NAME OF CITY-FILE = AISearchfile017.txt,
+SIZE = 17, TOUR LENGTH = 1519,
+0,7,14,9,16,3,10,13,5,2,6,12,11,4,8,1,15,
+NOTE = 

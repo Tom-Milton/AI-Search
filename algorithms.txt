@@ -1,0 +1,21 @@
+To learn
+L6		HC, hilling climbing search, 4,
+		BG, basic greedy search, 4,
+		2O, two-opt algorithm, 4,
+		US, uninformed search, 5,
+L6		SA, simulated annealing, 5,
+		MF, multi-fragment search, 5,
+		3O, three-opt algorithm, 5,
+		4O, four-opt algorithm, 5,
+		5O, five-opt algorithm, 5,
+		BF, brute-force search, 6,
+L2a		ID, iterative deepening search, 6,
+L3		BH, greedy best-first search, 6,
+L6		GA, genetic algorithm, 6,
+L3/4		AS, A* search, 7,
+		IA, iterative deepening A* search, 8,
+L7/8		AC, ant colony optimization, 9,
+L9/10		PS, particle swarm optimization, 10,
+	YT	CA, Christofides algorithm, 10,		needs triangle inequality
+		LK, Lin-Kernighan, 10,
+		WF, water-flow algorithm, 10

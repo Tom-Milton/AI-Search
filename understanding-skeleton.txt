@@ -1,0 +1,44 @@
+lines 1-132
+contain some helper functions;
+read_file_into_string   takes a file and ord_range and returns a string containing the contents of the file
+remove_all_spaces       removes all the spaces from any input string
+integerize              takes a string and strips everything but the integers from it
+convert_to_list_of_int  takes a string and returns a list of integers from it (uses integerize)
+build_distance_matrix   takes a number of cities, their distances and their format(full, upper_triangular or strict_upper_tri), returns a matrix of distances between cities.
+read_in_algorithm_codes_and_tariffs     reads in the file and returns the code_dictionary, tariff_dictionary and flag as a 3-tuple
+
+lines 133-155
+the reserved variable input_file is the city file under consideration.
+it can be supplied through the command line 'python3 skeleton.py city_file.txt' or by editing line 148.
+
+lines 156-208
+sets input_file to command line arguments
+runs read_file_into_string, remove_all_spaces
+contains a couple of warnings about the file structure/formatting
+extracts the number of cities in the file and stores it in a variable called num_cities
+builds the distance matrix using build_distance_matrix and stores it in a variable called dist_matrix.
+USEFUL VARIABLES; num_cities, dist_matrix
+
+lines 209-224
+reads the codes and tarriffs from the file into resered dictionaries 'code_dictionary' and 'tariff_dictionary'.
+
+lines 225-272
+deals with a couple of parameters like username, first name and last name as well as the algorithm code.
+also has a space for adding a note to a tour, this is potentially very useful for my own purposes and doesn't affect marking.
+USEFUL VARIABLES; algorithm_code needs to be set to the correct algorithm.
+
+lines 272 - 295
+space for my code
+MUST COMPUTE A TOUR SAVED IN THE RESERVED VARIABLE 'tour'.
+'tour' holds a list of the integers from 0 to num_cities-1.
+the length of the tour should also be stored in the variable tour_length
+USEFUL VARIABLES; tour, tour_length
+
+End section
+runs some checks on the tour to ensure that it:
+- contains only integer variables
+- has an integer length
+- contains the right number of cities
+- has no illegal or repeated city names
+- has the correct length labelled
+also saves the tour to a file (name of the file is printed as output)

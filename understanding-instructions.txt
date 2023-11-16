@@ -1,0 +1,82 @@
+OVERVIEW
+
+I need to produce:
+
+AlgAbasic.py    basic implementation of AlgA
+AlgBbasic.py    basic implementation of AlgB
+AlgAenhanced.py enhanced implementation of AlgA
+AlgBenhanced.py enhanced implementation of AlgB
+
+10 tours for each of AlgA and AlgB: one for each city set (in city-files)
+these should detail the best tours found with either implementation of that algorithm
+the tours need to be in a specifically named and formatted tour file.
+there will be 20 files.
+
+a one-page proforma edited with microsoft word but exported as a pdf
+this should describe my enhancement to the basic algorithms.
+
+MARK SCHEME
+
+marks are awarded for;
+(max 10)    sophistication of the algorithms implemented (maximum tarriff of the correct basic implementations)
+(max 4)     correctness of the basic implementations (4 marks if A AND B produce valid tours)
+(max 6)     enhancements made (3 available for A and 3 for B if correct. This is decided by the proforma)
+(max 8+2)   quality of the tours (sum of basic quality mark and enhanced quality mark)
+
+the basic quality mark corresponds to how good the tours are.
+
+for each of the 10 city sets i need to give the best tour produced by (AlgA or AlgAenhanced) and (AlgB or AlgBenhanced).
+The basic quality mark (max 8) is determined by the best tour for each of the city sets regardless of whether it came from AlgA or AlgB.
+
+The enhanced quality mark is available for each enhanced implementation if they perform much better than their basic counterpart.
+
+SUBMISSION
+
+Submissions should be used with abcd12
+
+all files should be in a folder called abcd12
+it should contain;
+– AlgAbasic.py
+– AlgBbasic.py
+– AlgAenhanced.py
+– AlgBenhanced.py
+
+as well as
+– AlgA AISearchfile012.txt
+– AlgA AISearchfile017.txt
+– AlgA AISearchfile021.txt
+– AlgA AISearchfile026.txt
+– AlgA AISearchfile042.txt
+– AlgA AISearchfile048.txt
+– AlgA AISearchfile058.txt
+– AlgA AISearchfile175.txt
+– AlgA AISearchfile180.txt
+– AlgA AISearchfile535.txt
+– AlgB AISearchfile012.txt
+– AlgB AISearchfile017.txt
+– AlgB AISearchfile021.txt
+– AlgB AISearchfile026.txt
+– AlgB AISearchfile042.txt
+– AlgB AISearchfile048.txt
+– AlgB AISearchfile058.txt
+– AlgB AISearchfile175.txt
+– AlgB AISearchfile180.txt
+– AlgB AISearchfile535.txt
+
+and
+- AISearchProforma.pdf
+
+TECHNICAL
+
+enhanced implementations must be set with the same parameters (for example mutation probability, iterations, population size and so on)
+these parameters should be set in a clear way at the beginning of the corresponds
+
+all the algorithms should work with the command 'python AlgAbasic.py AISearchfile012'
+
+no non-standard modules may be imported (skeleton.py contains a list of permissible imports)
+validate_before_handin.py should be run regularly.
+
+implementations must not take more than a minute to execute on the secret city sets.
+it is probably a good idea to force termination after 50 seconds.
+
+must run with Python 3.8 on Windows 10.
